@@ -57,7 +57,19 @@ let rain = true;
 */
 
 //CODE HERE
-
+if (temperature >= 80 && rain===true) {
+  console.log("Wear a tshirt and use an umbrella");
+} else if (temperature <= 60 && rain===false) {
+  console.log("Wear a rain-jacket");
+} else if (temperature <= 80 && rain===false) {
+  console.log("Wear a tshirt")
+} else if (temperature <= 60 && rain===true) {
+  console.log ("Wear a jacket and use an umbrella");
+} else if (temperature <60 && temperature >80 && rain===true) {
+  console.log("Wear a rain jacket and bring an umbrella");
+} else if (temperature <60 && temperature >80 && rain===false) {
+  console.log("Wear a tshirt")
+}
 ////////// PROBLEM 5 //////////
 
 /*
@@ -65,7 +77,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 0; i < 10; i++) {
+  console.log("hello")
+}
 ////////// PROBLEM 6 //////////
 
 /*
